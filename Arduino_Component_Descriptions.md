@@ -1,12 +1,12 @@
 # Arduino Starter Kit — Component Reference
 
-This catalog follows the 42 entries in the supplied **Arduino Starter Kit – Component Guide**. The three description fields are retained from that guide. Each image link points to an external reference image; the actual kit may use a visually similar clone or supplier variant.
+This catalog follows the 42 entries in the supplied **Arduino Starter Kit – Component Guide**. The three description fields are retained from that guide. Each component image is loaded from the matching local file in `images/`; the actual kit may use a visually similar clone or supplier variant.
 
 > **Image and licensing note:** Most image links below are product/vendor images. The source pages do not establish a reusable license in the search results, so verify permission before redistribution or commercial use. The Arduino UNO R3 image is from Wikimedia Commons under CC BY-SA 4.0 and requires attribution/share-alike.
 
 ## 01. Controller Board
 
-![Controller Board](https://upload.wikimedia.org/wikipedia/commons/2/2d/Arduino_Uno_R3_development_board_03.jpg)
+![Controller Board](images/01_controller_board.jpg)
 
 **Image source:** [https://commons.wikimedia.org/wiki/File:Arduino_Uno_R3_development_board_03.jpg](https://commons.wikimedia.org/wiki/File:Arduino_Uno_R3_development_board_03.jpg)
 
@@ -25,7 +25,7 @@ Use it as the brain of an automatic plant-watering system: read the moisture sen
 
 ## 02. USB Cable
 
-![USB Cable](https://www.ewent-eminent.com/sites/default/files/EC1005_2_v2_3.jpg)
+![USB Cable](images/02_usb_cable.jpg)
 
 **Image source:** [https://www.ewent-eminent.com/en/products/114-cables/usb-20-a%7Cm-to-b%7Cm-cable-18-m-0](https://www.ewent-eminent.com/en/products/114-cables/usb-20-a%7Cm-to-b%7Cm-cable-18-m-0)
 
@@ -44,7 +44,7 @@ Connect the board to the computer when uploading an Arduino sketch or checking s
 
 ## 03. 830 Tie-Points Breadboard
 
-![830 Tie-Points Breadboard](https://media.digikey.com/Photos/4526-Busboard-Prototype-Systems/MFG_4526_BB830.jpg)
+![830 Tie-Points Breadboard](images/03_830_tie_points_breadboard.jpg)
 
 **Image source:** [https://www.digikey.com/en/products/detail/busboard-prototype-systems/BB830/19200392](https://www.digikey.com/en/products/detail/busboard-prototype-systems/BB830/19200392)
 
@@ -63,7 +63,7 @@ Build and test an LED circuit with a resistor before making permanent connection
 
 ## 04. Remote
 
-![Remote](https://electra.store/storage/36236/voltaat-infrared-remote-control-kit-3593478668390.jpg)
+![Remote](images/04_infrared_remote.jpg)
 
 **Image source:** [https://electra.store/products/infrared-remote-control](https://electra.store/products/infrared-remote-control)
 
@@ -82,7 +82,7 @@ Use the remote to select modes or switch an LED on and off from a distance.
 
 ## 05. 65 Jumper Wire
 
-![65 Jumper Wire](https://electronikz.com/images/breadboard-jumper-wires-set_2.jpg)
+![65 Jumper Wire](images/05_65_jumper_wires.jpg)
 
 **Image source:** [https://electronikz.com/products/breadboard-jumper-wires-set](https://electronikz.com/products/breadboard-jumper-wires-set)
 
@@ -101,7 +101,7 @@ Connect a sensor's VCC, GND, and signal pins to the appropriate board or breadbo
 
 ## 06. Stepper Motor
 
-![Stepper Motor](https://down-br.img.susercontent.com/file/br-11134207-7qukw-lggznqvffxhif3)
+![Stepper Motor](images/06_stepper_motor_28byj48.jpg)
 
 **Image source:** [https://shopee.com.br/Motor-de-Passo-28BYJ-48-com-Driver-ULN2003-Para-Arduino-i.992479881.22495647626](https://shopee.com.br/Motor-de-Passo-28BYJ-48-com-Driver-ULN2003-Para-Arduino-i.992479881.22495647626)
 
@@ -120,7 +120,7 @@ Use it for a small rotating platform or a model gate that needs controlled movem
 
 ## 07. Servo Motor (SG90)
 
-![Servo Motor (SG90)](https://www.hellasdigital.gr/images/detailed/29/Hf3b86ff5689c4ff3a596faa974c85945Y.jpg_.jpg)
+![Servo Motor (SG90)](images/07_servo_motor_sg90.jpg)
 
 **Image source:** [https://www.hellasdigital.gr/go-create/servo/servos/towerpro-micro-servo-motor-sg90-9g-rc-robot-helicopter-airplane/](https://www.hellasdigital.gr/go-create/servo/servos/towerpro-micro-servo-motor-sg90-9g-rc-robot-helicopter-airplane/)
 
@@ -139,7 +139,7 @@ Move a small barrier arm to an open or closed position in an automatic gate mode
 
 ## 08. 1602 I2C LCD
 
-![1602 I2C LCD](https://www.waveshare.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/l/c/lcd1602-i2c-module-blue-1.jpg)
+![1602 I2C LCD](images/08_lcd1602_i2c.jpg)
 
 **Image source:** [https://www.waveshare.com/lcd1602-i2c-module-blue.htm](https://www.waveshare.com/lcd1602-i2c-module-blue.htm)
 
@@ -158,7 +158,7 @@ Display sensor readings, a welcome message, or the current system status.
 
 ## 09. ULN2003 Stepper Motor Driver Board
 
-![ULN2003 Stepper Motor Driver Board](https://potentiallabs.com/cart/image/cache/catalog/New%20Components-17/ULN2003%20Stepper%20Motor%20Driver%20Board-02-700x700.jpg)
+![ULN2003 Stepper Motor Driver Board](images/09_uln2003_stepper_driver.jpg)
 
 **Image source:** [https://potentiallabs.com/cart/buy-uln2003-stepper-motor-driver-module-online](https://potentiallabs.com/cart/buy-uln2003-stepper-motor-driver-module-online)
 
@@ -177,7 +177,7 @@ Use it with a compatible stepper motor in a small positioning or rotating-displa
 
 ## 10. Power Supply Module
 
-![Power Supply Module](https://static-01.daraz.com.bd/p/14355cae8fc1ccec2017d5b51cfb246e.jpg)
+![Power Supply Module](images/10_breadboard_power_supply_mb102.jpg)
 
 **Image source:** [https://www.daraz.com.bd/products/mb102-breadboard-power-supply-module-solderless-33v-5v-breadboard-power-supply-module-for-arduino-diy-do-not-need-any-cables-for-power-supply-i324690605.html](https://www.daraz.com.bd/products/mb102-breadboard-power-supply-module-solderless-33v-5v-breadboard-power-supply-module-for-arduino-diy-do-not-need-any-cables-for-power-supply-i324690605.html)
 
@@ -196,7 +196,7 @@ Power a low-voltage sensor circuit on a breadboard while keeping the controller 
 
 ## 11. Joystick Module
 
-![Joystick Module](https://naylampmechatronics.com/739-superlarge_default/modulo-joystick-dual-axis-ky-023.jpg)
+![Joystick Module](images/11_joystick_module_ky023.jpg)
 
 **Image source:** [https://naylampmechatronics.com/interfaz-de-usuario/36-modulo-joystick-dual-axis-ky-023.html](https://naylampmechatronics.com/interfaz-de-usuario/36-modulo-joystick-dual-axis-ky-023.html)
 
@@ -215,7 +215,7 @@ Control the direction of a servo or move a cursor in a simple menu.
 
 ## 12. Membrane Switch Module
 
-![Membrane Switch Module](https://mikrobot.pl/userdata/public/gfx/5632/Klawiatura-membranowa-4x4-samoprzylepna-16-przycis-3.jpg)
+![Membrane Switch Module](images/12_membrane_keypad_4x4.jpg)
 
 **Image source:** [https://mikrobot.pl/Klawiatura-membranowa-4x4-samoprzylepna-16-przyciskow-8-pin-35V-do-Arduino](https://mikrobot.pl/Klawiatura-membranowa-4x4-samoprzylepna-16-przyciskow-8-pin-35V-do-Arduino)
 
@@ -234,7 +234,7 @@ Enter a PIN code for a simple electronic door-lock demonstration.
 
 ## 13. Water Level Detection Sensor Module
 
-![Water Level Detection Sensor Module](https://iduino.co.in/wp-content/uploads/SR037-22.jpg)
+![Water Level Detection Sensor Module](images/13_water_level_sensor.jpg)
 
 **Image source:** [https://iduino.co.in/product/water-level-sensor-module/](https://iduino.co.in/product/water-level-sensor-module/)
 
@@ -253,7 +253,7 @@ Create a water-tank alert that lights an LED or sounds a buzzer when water reach
 
 ## 14. Sound Sensor Module
 
-![Sound Sensor Module](https://i.ebayimg.com/images/g/LqwAAOSwrCxiHKwt/s-l1200.png)
+![Sound Sensor Module](images/14_sound_sensor_ky038.jpg)
 
 **Image source:** [https://www.ebay.com/itm/385494561952](https://www.ebay.com/itm/385494561952)
 
@@ -272,7 +272,7 @@ Make an LED respond when the sensor detects a clap or a loud sound.
 
 ## 15. Fan Blade
 
-![Fan Blade](https://www.arcaelectronica.com/cdn/shop/products/helice1_2048x.jpeg?v=1694548302)
+![Fan Blade](images/15_fan_blade.jpg)
 
 **Image source:** [https://www.arcaelectronica.com/products/motor-dc-3v-6v-helice-proyecto-arduino-juguete](https://www.arcaelectronica.com/products/motor-dc-3v-6v-helice-proyecto-arduino-juguete)
 
@@ -291,7 +291,7 @@ Attach it to a suitable motor for a small fan demonstration. Keep fingers clear 
 
 ## 16. 1 Digit 7-Segment Display
 
-![1 Digit 7-Segment Display](https://robu-prod-media.s3.ap-south-1.amazonaws.com/uploads/2022/06/0.56-inch-Red-1-Digit-7-Segment-LED-Display-10pin-1-1.jpg)
+![1 Digit 7-Segment Display](images/16_seven_segment_one_digit.jpg)
 
 **Image source:** [https://robu.in/product/0-56-inch-red-1-digit-7-segment-led-display-10pin/](https://robu.in/product/0-56-inch-red-1-digit-7-segment-led-display-10pin/)
 
@@ -310,7 +310,7 @@ Display a single counter value, such as 0 through 9.
 
 ## 17. 4 Digit 7-Segment Display
 
-![4 Digit 7-Segment Display](https://www.roboter-bausatz.de/media/48/7e/ce/1739547077/rbs17331.jpg?ts=1781387811)
+![4 Digit 7-Segment Display](images/17_seven_segment_four_digit.jpg)
 
 **Image source:** [https://www.roboter-bausatz.de/p/7-segment-display-modul-4-stellig-rot-tm1637-0.56](https://www.roboter-bausatz.de/p/7-segment-display-modul-4-stellig-rot-tm1637-0.56)
 
@@ -329,7 +329,7 @@ Show a timer, score, or four-digit sensor reading.
 
 ## 18. Ultrasonic Sensor
 
-![Ultrasonic Sensor](https://images.thingbits.net/eyJidWNrZXQiOiJ0aGluZ2JpdHMtbmV0Iiwia2V5Ijoib2hxNXc0NGsxbGJwM2Iyazl6Zzg0Y3JteDcxMCIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6OTcwLCJoZWlnaHQiOjcyOCwiZml0IjoiY292ZXIifX19)
+![Ultrasonic Sensor](images/18_ultrasonic_sensor_hcsr04.jpg)
 
 **Image source:** [https://www.thingbits.in/products/hc-sr04-ultrasonic-distance-sensor](https://www.thingbits.in/products/hc-sr04-ultrasonic-distance-sensor)
 
@@ -348,7 +348,7 @@ Build a parking-distance indicator or an obstacle-detection model.
 
 ## 19. DHT11 Temperature and Humidity Module
 
-![DHT11 Temperature and Humidity Module](https://electro-robo.com/cdn/shop/files/DHT11_Humidity_and_Temperature_Sensor_Module2.jpg?v=1768301847)
+![DHT11 Temperature and Humidity Module](images/19_dht11_sensor_module.jpg)
 
 **Image source:** [https://electro-robo.com/products/dht11-humidity-and-temperature-sensor-module](https://electro-robo.com/products/dht11-humidity-and-temperature-sensor-module)
 
@@ -367,7 +367,7 @@ Display room temperature and humidity on an LCD.
 
 ## 20. 10K Potentiometer
 
-![10K Potentiometer](https://sellercenter-images.olx.com.pk/olx-pk/generic/28f7b9c4-2e45-466c-843c-ce4b386ddaf6/large.jpeg)
+![10K Potentiometer](images/20_potentiometer_10k.jpg)
 
 **Image source:** [https://www.olx.com.pk/item/1-pcs-10k-ohm-variable-resistors-rotary-potentiometer-3-pin-mono-volume-control-iid-ev446426-1](https://www.olx.com.pk/item/1-pcs-10k-ohm-variable-resistors-rotary-potentiometer-3-pin-mono-volume-control-iid-ev446426-1)
 
@@ -386,7 +386,7 @@ Use it to adjust LED brightness or set a threshold value.
 
 ## 21. IR Receiver Module
 
-![IR Receiver Module](https://media2.dev.to/dynamic/image/width%3D800%2Cheight%3D%2Cfit%3Dscale-down%2Cgravity%3Dauto%2Cformat%3Dauto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fttqcbvgf0y6h7a4n9rmi.png)
+![IR Receiver Module](images/21_ir_receiver_vs1838b.jpg)
 
 **Image source:** [https://dev.to/thilak_kumar/i-chose-the-vs1838b-ir-receiver-for-my-esp32-based-project-1o7l](https://dev.to/thilak_kumar/i-chose-the-vs1838b-ir-receiver-for-my-esp32-based-project-1o7l)
 
@@ -405,7 +405,7 @@ Receive remote-control commands to change the mode of a project.
 
 ## 22. 3–6V Motor (with wire)
 
-![3–6V Motor (with wire)](https://cdn.store-assets.com/s/236824/i/43097169.jpg?width=480)
+![3–6V Motor (with wire)](images/22_dc_motor_3_6v.jpg)
 
 **Image source:** [https://www.jmaker.com.tw/products/product142-1](https://www.jmaker.com.tw/products/product142-1)
 
@@ -424,7 +424,7 @@ Spin a small wheel or fan in a low-voltage prototype.
 
 ## 23. 5V Relay
 
-![5V Relay](https://cdn.webshopapp.com/shops/144750/files/313023492/1-channel-5v-module-suitable-for-arduino.jpg)
+![5V Relay](images/23_relay_5v_module.jpg)
 
 **Image source:** [https://www.pcfelectronics.nl/en/1-channel-relay-module-ideal-for-arduino.html](https://www.pcfelectronics.nl/en/1-channel-relay-module-ideal-for-arduino.html)
 
@@ -443,7 +443,7 @@ Switch a low-voltage lamp or other suitable load in a demonstration circuit.
 
 ## 24. F-M Dupont Wire
 
-![F-M Dupont Wire](https://static5.abc-rc.pl/hpeciai/e066bc3faa62b5fa5e9c8a1bc504d7c1/eng_pl_DuPont-M-F-jumper-cables-40-pcs-20cm-male-female-8761_4.webp)
+![F-M Dupont Wire](images/24_dupont_female_to_male_wires.jpg)
 
 **Image source:** [https://abc-rc.pl/en/products/dupont-m-f-jumper-cables-40-pcs-20cm-male-female-8761.html](https://abc-rc.pl/en/products/dupont-m-f-jumper-cables-40-pcs-20cm-male-female-8761.html)
 
@@ -462,7 +462,7 @@ Connect a module with male header pins to a breadboard or a board header.
 
 ## 25. 9V Battery Connector With DC
 
-![9V Battery Connector With DC](https://down-my.img.susercontent.com/file/sg-11134201-23010-tus5zzfjbzmva6)
+![9V Battery Connector With DC](images/25_9v_battery_to_dc_connector.jpg)
 
 **Image source:** [https://shopee.com.my/9V-Battery-Holder-Connector-Snap-2.1mm-DC-Plug-Adapter-T-Type-for-Arduino-UNO-R3-Power-Supply-i.927139050.21072124487](https://shopee.com.my/9V-Battery-Holder-Connector-Snap-2.1mm-DC-Plug-Adapter-T-Type-for-Arduino-UNO-R3-Power-Supply-i.927139050.21072124487)
 
@@ -481,7 +481,7 @@ Power a compatible low-current prototype that is designed for a 9V input.
 
 ## 26. Tilt Switch
 
-![Tilt Switch](https://i5.walmartimages.com/seo/Angle-Sensor-Module-SW-520D-Ball-Switch-Tilt-Sensor-Module-for-Arduino-1pcs_ba878c58-09b8-4703-afde-3f0086286db9_1.2a1b2c439833e20ee50f11fac928d494.jpeg)
+![Tilt Switch](images/26_tilt_sensor_sw520d.jpg)
 
 **Image source:** [https://www.walmart.com/ip/Angle-Sensor-Module-SW-520D-Ball-Switch-Tilt-Sensor-Module-for-Arduino-1pcs/924467457](https://www.walmart.com/ip/Angle-Sensor-Module-SW-520D-Ball-Switch-Tilt-Sensor-Module-for-Arduino-1pcs/924467457)
 
@@ -500,7 +500,7 @@ Make a tilt alarm or detect when a model object has been moved.
 
 ## 27. L293D
 
-![L293D](https://robodo.in/cdn/shop/products/BE010542.jpg?v=1677521945)
+![L293D](images/27_l293d_motor_driver_ic.jpg)
 
 **Image source:** [https://robodo.in/products/l293d-dual-h-bridge-motor-driver-ic-dip-16-package](https://robodo.in/products/l293d-dual-h-bridge-motor-driver-ic-dip-16-package)
 
@@ -519,7 +519,7 @@ Control forward and reverse movement of a small two-wheel robot.
 
 ## 28. 74HC595
 
-![74HC595](https://www.sparkfun.com/media/catalog/product/cache/f8158826193ba5faa8b862a9bd1eb9e9/1/3/13699-01.jpg)
+![74HC595](images/28_74hc595_shift_register.jpg)
 
 **Image source:** [https://www.sparkfun.com/shift-register-8-bit-sn74hc595.html](https://www.sparkfun.com/shift-register-8-bit-sn74hc595.html)
 
@@ -538,7 +538,7 @@ Control multiple LEDs using only a few controller pins.
 
 ## 29. Active Buzzer
 
-![Active Buzzer](https://static.rapidonline.com/catalogueimages/product/35/00/s35-0048p01wc.jpg)
+![Active Buzzer](images/29_active_buzzer.jpg)
 
 **Image source:** [https://www.rapidonline.com/rvfm-5v-miniature-electronic-buzzer-35-0048](https://www.rapidonline.com/rvfm-5v-miniature-electronic-buzzer-35-0048)
 
@@ -557,7 +557,7 @@ Give an audible alert when a sensor detects a condition.
 
 ## 30. Passive Buzzer
 
-![Passive Buzzer](https://quartzcomponents.com/cdn/shop/products/Small-Piezoelectric-Buzzer_large.jpg?v=1656999439)
+![Passive Buzzer](images/30_passive_buzzer.jpg)
 
 **Image source:** [https://quartzcomponents.com/products/small-piezoelectric-buzzer-5v-passive-buzzer](https://quartzcomponents.com/products/small-piezoelectric-buzzer-5v-passive-buzzer)
 
@@ -576,7 +576,7 @@ Play different beeps for different menu selections or warning levels.
 
 ## 31. Button (Small)
 
-![Button (Small)](https://www.shenzhen2u.com/image/cache/catalog/Buttons/Mini%20Push%20Button%20Switch-500x500.jpg)
+![Button (Small)](images/31_small_tactile_button.jpg)
 
 **Image source:** [https://www.shenzhen2u.com/Mini-Push-Button-Switch](https://www.shenzhen2u.com/Mini-Push-Button-Switch)
 
@@ -595,7 +595,7 @@ Use it to start a timer, reset a counter, or select a menu option.
 
 ## 32. Photoresistor (Photocell)
 
-![Photoresistor (Photocell)](https://bigyanproject.com/2901-large_default/5mm-ldr-sensor.webp)
+![Photoresistor (Photocell)](images/32_photoresistor_ldr.jpg)
 
 **Image source:** [https://bigyanproject.com/en/ldr/5mm-ldr-sensor](https://bigyanproject.com/en/ldr/5mm-ldr-sensor)
 
@@ -614,7 +614,7 @@ Automatically turn on an LED when the surroundings become dark.
 
 ## 33. Thermistor
 
-![Thermistor](https://platincdn.com/3635/pictures/ZNHFMGNQWZ1220202015583_ntc.jpg)
+![Thermistor](images/33_thermistor_ntc.jpg)
 
 **Image source:** [https://www.ecembilgisayar.com/10k-ntc-termistor-3950k-hassas-sicaklik-sensoru-pmu210](https://www.ecembilgisayar.com/10k-ntc-termistor-3950k-hassas-sicaklik-sensoru-pmu210)
 
@@ -633,7 +633,7 @@ Build a temperature-monitoring circuit or heat-warning indicator.
 
 ## 34. NPN Transistor (PN2222)
 
-![NPN Transistor (PN2222)](https://product.hstatic.net/200000551749/product/pn2222a_4fadeed6f6f445f5835d36ab3ce3001b_1024x1024.jpg)
+![NPN Transistor (PN2222)](images/34_transistor_pn2222a.jpg)
 
 **Image source:** [https://linhkienhatech.com/products/linh-kien-transistor-pn2222a-to-92](https://linhkienhatech.com/products/linh-kien-transistor-pn2222a-to-92)
 
@@ -652,7 +652,7 @@ Use it to switch a small buzzer or motor from a controller output, with suitable
 
 ## 35. Diode 1N4007 Rectifier
 
-![Diode 1N4007 Rectifier](https://static.wixstatic.com/media/a4057c_5f9d5c15f2da434eb77df00637441df3~mv2.png/v1/fill/w_1000%2Ch_1000%2Cal_c%2Cq_90%2Cenc_avif%2Cquality_auto/a4057c_5f9d5c15f2da434eb77df00637441df3~mv2.png)
+![Diode 1N4007 Rectifier](images/35_diode_1n4007.jpg)
 
 **Image source:** [https://www.grupocecaph.mx/product-page/1n4007-diodo-rectificador-1000v-1a](https://www.grupocecaph.mx/product-page/1n4007-diodo-rectificador-1000v-1a)
 
@@ -671,7 +671,7 @@ Use it for reverse-polarity protection or as a flyback diode across a suitable r
 
 ## 36. Red LED
 
-![Red LED](https://paperquirks.in/cdn/shop/files/SMALLLEDBULB.jpg?v=1721458440)
+![Red LED](images/36_led_red_5mm.jpg)
 
 **Image source:** [https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs](https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs)
 
@@ -690,7 +690,7 @@ Use it as a power indicator or warning light.
 
 ## 37. Yellow LED
 
-![Yellow LED](https://paperquirks.in/cdn/shop/files/SMALLLEDBULB.jpg?v=1721458440)
+![Yellow LED](images/37_led_yellow_5mm.jpg)
 
 **Image source:** [https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs](https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs)
 
@@ -709,7 +709,7 @@ Use it to indicate a waiting state or caution condition.
 
 ## 38. Green LED
 
-![Green LED](https://paperquirks.in/cdn/shop/files/SMALLLEDBULB.jpg?v=1721458440)
+![Green LED](images/38_led_green_5mm.jpg)
 
 **Image source:** [https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs](https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs)
 
@@ -728,7 +728,7 @@ Use it to indicate that a process is complete or a system is ready.
 
 ## 39. Blue LED
 
-![Blue LED](https://paperquirks.in/cdn/shop/files/SMALLLEDBULB.jpg?v=1721458440)
+![Blue LED](images/39_led_blue_5mm.jpg)
 
 **Image source:** [https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs](https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs)
 
@@ -747,7 +747,7 @@ Use it as a status indicator in a prototype.
 
 ## 40. White LED
 
-![White LED](https://paperquirks.in/cdn/shop/files/SMALLLEDBULB.jpg?v=1721458440)
+![White LED](images/40_led_white_5mm.jpg)
 
 **Image source:** [https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs](https://paperquirks.in/products/5mm-led-light-assorted-kit-green-yellow-red-white-blue-50-pcs)
 
@@ -766,7 +766,7 @@ Use it as a small indicator or light source in a model.
 
 ## 41. RGB LED
 
-![RGB LED](https://static-01.daraz.com.bd/p/588dbf7f3380e85766d1db7b8a422e8e.jpg)
+![RGB LED](images/41_rgb_led_5mm.jpg)
 
 **Image source:** [https://www.daraz.com.bd/products/5pcs-4-pin-rgb-transparent-5mm-water-clear-rgb-led-5mm-4pin-transparent-round-5mm-led-light-emitting-diode-water-clear-rgb-leds-blinking-light-bulbs-for-electronics-project-i145614824.html](https://www.daraz.com.bd/products/5pcs-4-pin-rgb-transparent-5mm-water-clear-rgb-led-5mm-4pin-transparent-round-5mm-led-light-emitting-diode-water-clear-rgb-leds-blinking-light-bulbs-for-electronics-project-i145614824.html)
 
@@ -785,7 +785,7 @@ Show different system states using different colors.
 
 ## 42. Resistor
 
-![Resistor](https://www.allelcoelec.com/upfile/images/79/20260108104306346.png)
+![Resistor](images/42_resistor_assortment.jpg)
 
 **Image source:** [https://www.allelcoelec.com/blog/Overview-of-Carbon-Film-Resistors.html](https://www.allelcoelec.com/blog/Overview-of-Carbon-Film-Resistors.html)
 
