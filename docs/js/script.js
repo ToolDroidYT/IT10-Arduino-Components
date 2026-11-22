@@ -1,7 +1,7 @@
 window.COMPONENTS = [
     {
         name: 'Controller Board',
-        image: './images/01_controller_board.jpg',
+        image: 'images/01_controller_board.jpg',
         description:
             'The controller board runs the project program and sends signals to connected parts.',
         used: 'Running the project code and controlling connected parts.',
@@ -9,7 +9,7 @@ window.COMPONENTS = [
     },
     {
         name: 'USB Cable',
-        image: './images/02_usb_cable.jpg',
+        image: 'images/02_usb_cable.jpg',
         description:
             'The USB cable connects the controller board to a computer or compatible power source.',
         used: 'Powering the board and sending sketches from a computer.',
@@ -18,7 +18,7 @@ window.COMPONENTS = [
     },
     {
         name: '830 Tie-Points Breadboard',
-        image: './images/03_830_tie_points_breadboard.jpg',
+        image: 'images/03_830_tie_points_breadboard.jpg',
         description:
             'A breadboard lets you build temporary circuits without soldering.',
         used: 'Building temporary circuits without soldering.',
@@ -26,7 +26,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Remote',
-        image: './images/04_infrared_remote.jpg',
+        image: 'images/04_infrared_remote.jpg',
         description:
             'The remote is a handheld infrared controller with buttons.',
         used: 'Controlling a project from a distance.',
@@ -34,28 +34,28 @@ window.COMPONENTS = [
     },
     {
         name: '65 Jumper Wire',
-        image: './images/05_65_jumper_wires.jpg',
+        image: 'images/05_65_jumper_wires.jpg',
         description: 'Jumper wires connect components and board pins.',
         used: 'Connecting parts to the board and breadboard.',
         example: 'Connect a sensor’s power, ground, and signal pins.',
     },
     {
         name: 'Stepper Motor',
-        image: './images/06_stepper_motor_28byj48.jpg',
+        image: 'images/06_stepper_motor_28byj48.jpg',
         description: 'A stepper motor rotates in small, controlled steps.',
         used: 'Turning a part in small, precise steps.',
         example: 'Move a small model gate in controlled steps.',
     },
     {
         name: 'Servo Motor (SG90)',
-        image: './images/07_servo_motor_sg90.jpg',
+        image: 'images/07_servo_motor_sg90.jpg',
         description: 'A servo motor moves its output shaft to a chosen angle.',
         used: 'Moving an arm or part to a chosen angle.',
         example: 'Open and close a small model barrier.',
     },
     {
         name: '1602 I2C LCD',
-        image: './images/08_lcd1602_i2c.jpg',
+        image: 'images/08_lcd1602_i2c.jpg',
         description:
             'The 1602 I2C LCD is a character display that can show up to 16 characters on each of two lines.',
         used: 'Showing messages and readings.',
@@ -63,7 +63,7 @@ window.COMPONENTS = [
     },
     {
         name: 'ULN2003 Stepper Motor Driver Board',
-        image: './images/09_uln2003_stepper_driver.jpg',
+        image: 'images/09_uln2003_stepper_driver.jpg',
         description:
             'The ULN2003 board helps control a small unipolar stepper motor.',
         used: 'Driving a compatible stepper motor.',
@@ -71,7 +71,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Power Supply Module',
-        image: './images/10_breadboard_power_supply_mb102.jpg',
+        image: 'images/10_breadboard_power_supply_mb102.jpg',
         description:
             'The power supply module provides regulated power to breadboard rails.',
         used: 'Providing power to breadboard circuits.',
@@ -79,7 +79,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Joystick Module',
-        image: './images/11_joystick_module_ky023.jpg',
+        image: 'images/11_joystick_module_ky023.jpg',
         description:
             'A joystick module provides two-axis movement input and often includes a push-button switch.',
         used: 'Giving a project two-axis movement input.',
@@ -87,7 +87,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Membrane Switch Module',
-        image: './images/12_membrane_keypad_4x4.jpg',
+        image: 'images/12_membrane_keypad_4x4.jpg',
         description:
             'A membrane switch module is a flat keypad made of several pressable buttons.',
         used: 'Entering numbers or commands.',
@@ -95,28 +95,28 @@ window.COMPONENTS = [
     },
     {
         name: 'Water Level Detection Sensor Module',
-        image: './images/13_water_level_sensor.jpg',
+        image: 'images/13_water_level_sensor.jpg',
         description: 'This sensor detects water at its exposed sensing tracks.',
         used: 'Detecting water level.',
         example: 'Light an LED when water reaches a set level.',
     },
     {
         name: 'Sound Sensor Module',
-        image: './images/14_sound_sensor_ky038.jpg',
+        image: 'images/14_sound_sensor_ky038.jpg',
         description: 'The sound sensor detects sound using a microphone.',
         used: 'Detecting sound.',
         example: 'Turn on an LED when the sensor detects a clap.',
     },
     {
         name: 'Fan Blade',
-        image: './images/15_fan_blade.jpg',
+        image: 'images/15_fan_blade.jpg',
         description: 'A fan blade moves air when it rotates.',
         used: 'Moving air when attached to a motor.',
         example: 'Attach it to a motor to make a small fan.',
     },
     {
         name: '1 Digit 7-Segment Display',
-        image: './images/16_seven_segment_one_digit.jpg',
+        image: 'images/16_seven_segment_one_digit.jpg',
         description:
             'A one-digit 7-segment display shows numbers using seven individual LED segments.',
         used: 'Displaying one digit.',
@@ -124,7 +124,7 @@ window.COMPONENTS = [
     },
     {
         name: '4 Digit 7-Segment Display',
-        image: './images/17_seven_segment_four_digit.jpg',
+        image: 'images/17_seven_segment_four_digit.jpg',
         description:
             'A four-digit 7-segment display shows four numeric digits in one module.',
         used: 'Displaying several digits.',
@@ -132,7 +132,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Ultrasonic Sensor',
-        image: './images/18_ultrasonic_sensor_hcsr04.jpg',
+        image: 'images/18_ultrasonic_sensor_hcsr04.jpg',
         description:
             'An ultrasonic sensor measures distance using high-frequency sound waves.',
         used: 'Measuring distance to an object.',
@@ -140,7 +140,7 @@ window.COMPONENTS = [
     },
     {
         name: 'DHT11 Temperature and Humidity Module',
-        image: './images/19_dht11_sensor_module.jpg',
+        image: 'images/19_dht11_sensor_module.jpg',
         description:
             'The DHT11 measures surrounding temperature and relative humidity.',
         used: 'Measuring temperature and humidity.',
@@ -148,7 +148,7 @@ window.COMPONENTS = [
     },
     {
         name: '10K Potentiometer',
-        image: './images/20_potentiometer_10k.jpg',
+        image: 'images/20_potentiometer_10k.jpg',
         description:
             'A 10K potentiometer is an adjustable resistor with three terminals.',
         used: 'Adjusting an electrical setting.',
@@ -156,7 +156,7 @@ window.COMPONENTS = [
     },
     {
         name: 'IR Receiver Module',
-        image: './images/21_ir_receiver_vs1838b.jpg',
+        image: 'images/21_ir_receiver_vs1838b.jpg',
         description:
             'An infrared receiver detects coded infrared light signals, such as those sent by a compatible remote.',
         used: 'Receiving commands from an infrared remote.',
@@ -164,7 +164,7 @@ window.COMPONENTS = [
     },
     {
         name: '3–6V Motor (with wire)',
-        image: './images/22_dc_motor_3_6v.jpg',
+        image: 'images/22_dc_motor_3_6v.jpg',
         description:
             'A small 3–6 V DC motor converts electrical power into spinning motion.',
         used: 'Creating continuous spinning motion.',
@@ -172,7 +172,7 @@ window.COMPONENTS = [
     },
     {
         name: '5V Relay',
-        image: './images/23_relay_5v_module.jpg',
+        image: 'images/23_relay_5v_module.jpg',
         description:
             'A relay is an electrically controlled switch; this module uses a 5 V coil.',
         used: 'Switching another circuit electronically.',
@@ -180,7 +180,7 @@ window.COMPONENTS = [
     },
     {
         name: 'F-M Dupont Wire',
-        image: './images/24_dupont_female_to_male_wires.jpg',
+        image: 'images/24_dupont_female_to_male_wires.jpg',
         description:
             'Female-to-male Dupont wires connect a female socket at one end to a male pin at the other.',
         used: 'Making removable wire connections.',
@@ -188,7 +188,7 @@ window.COMPONENTS = [
     },
     {
         name: '9V Battery Connector With DC',
-        image: './images/25_9v_battery_to_dc_connector.jpg',
+        image: 'images/25_9v_battery_to_dc_connector.jpg',
         description:
             'This connector links a 9 V battery to a compatible DC power input.',
         used: 'Connecting a 9 V battery to a compatible power input.',
@@ -196,7 +196,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Tilt Switch',
-        image: './images/26_tilt_sensor_sw520d.jpg',
+        image: 'images/26_tilt_sensor_sw520d.jpg',
         description:
             'A tilt switch detects a change in orientation or inclination.',
         used: 'Detecting tilt or movement.',
@@ -204,14 +204,14 @@ window.COMPONENTS = [
     },
     {
         name: 'L293D',
-        image: './images/27_l293d_motor_driver_ic.jpg',
+        image: 'images/27_l293d_motor_driver_ic.jpg',
         description: 'The L293D is a dual H-bridge motor driver chip.',
         used: 'Controlling motor direction.',
         example: 'Make a small robot move forward and backward.',
     },
     {
         name: '74HC595',
-        image: './images/28_74hc595_shift_register.jpg',
+        image: 'images/28_74hc595_shift_register.jpg',
         description:
             'The 74HC595 is an 8-bit serial-in, parallel-out shift register.',
         used: 'Adding more digital outputs with fewer board pins.',
@@ -219,28 +219,28 @@ window.COMPONENTS = [
     },
     {
         name: 'Active Buzzer',
-        image: './images/29_active_buzzer.jpg',
+        image: 'images/29_active_buzzer.jpg',
         description: 'An active buzzer makes a tone when powered correctly.',
         used: 'Making a simple sound alert.',
         example: 'Sound an alert when a sensor detects a condition.',
     },
     {
         name: 'Passive Buzzer',
-        image: './images/30_passive_buzzer.jpg',
+        image: 'images/30_passive_buzzer.jpg',
         description: 'A passive buzzer needs a changing signal to make a tone.',
         used: 'Playing tones controlled by the board.',
         example: 'Play different beeps for menu choices.',
     },
     {
         name: 'Button (Small)',
-        image: './images/31_small_tactile_button.jpg',
+        image: 'images/31_small_tactile_button.jpg',
         description: 'A small push-button is active only while pressed.',
         used: 'Providing a press-to-activate input.',
         example: 'Start a timer or select a menu option.',
     },
     {
         name: 'Photoresistor (Photocell)',
-        image: './images/32_photoresistor_ldr.jpg',
+        image: 'images/32_photoresistor_ldr.jpg',
         description:
             'A photoresistor changes its resistance depending on the amount of light falling on it.',
         used: 'Detecting changes in light.',
@@ -248,7 +248,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Thermistor',
-        image: './images/33_thermistor_ntc.jpg',
+        image: 'images/33_thermistor_ntc.jpg',
         description:
             'A thermistor is a resistor whose resistance changes with temperature.',
         used: 'Detecting changes in temperature.',
@@ -256,7 +256,7 @@ window.COMPONENTS = [
     },
     {
         name: 'NPN Transistor (PN2222)',
-        image: './images/34_transistor_pn2222a.jpg',
+        image: 'images/34_transistor_pn2222a.jpg',
         description:
             'The PN2222 is an NPN transistor that can act as a switch or amplifier.',
         used: 'Switching a load using a small control signal.',
@@ -264,14 +264,14 @@ window.COMPONENTS = [
     },
     {
         name: 'Diode 1N4007 Rectifier',
-        image: './images/35_diode_1n4007.jpg',
+        image: 'images/35_diode_1n4007.jpg',
         description: 'The 1N4007 is a general-purpose rectifier diode.',
         used: 'Allowing current to flow mainly in one direction.',
         example: 'Help protect a circuit from reverse current.',
     },
     {
         name: 'Red LED',
-        image: './images/36_led_red_5mm.jpg',
+        image: 'images/36_led_red_5mm.jpg',
         description:
             'A red LED produces red light when current flows through it.',
         used: 'Giving a project a red light indicator.',
@@ -279,7 +279,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Yellow LED',
-        image: './images/38_led_yellow_5mm.jpg',
+        image: 'images/38_led_yellow_5mm.jpg',
         description:
             'A yellow LED produces yellow light when current flows through it.',
         used: 'Giving a project a yellow light indicator.',
@@ -287,7 +287,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Green LED',
-        image: './images/37_led_green_5mm.jpg',
+        image: 'images/37_led_green_5mm.jpg',
         description:
             'A green LED produces green light when current flows through it.',
         used: 'Giving a project a green light indicator.',
@@ -295,7 +295,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Blue LED',
-        image: './images/39_led_blue_5mm.jpg',
+        image: 'images/39_led_blue_5mm.jpg',
         description:
             'A blue LED produces blue light when current flows through it.',
         used: 'Giving a project a blue light indicator.',
@@ -303,14 +303,14 @@ window.COMPONENTS = [
     },
     {
         name: 'White LED',
-        image: './images/40_led_white_5mm.jpg',
+        image: 'images/40_led_white_5mm.jpg',
         description: 'A white LED produces white light.',
         used: 'Providing a small white light.',
         example: 'Add a small light to a model.',
     },
     {
         name: 'RGB LED',
-        image: './images/41_rgb_led_5mm.jpg',
+        image: 'images/41_rgb_led_5mm.jpg',
         description:
             'An RGB LED combines red, green, and blue LEDs in one package.',
         used: 'Making several colors from one LED.',
@@ -318,7 +318,7 @@ window.COMPONENTS = [
     },
     {
         name: 'Resistor',
-        image: './images/42_resistor_assortment.jpg',
+        image: 'images/42_resistor_assortment.jpg',
         description:
             'A resistor limits current and creates voltage drops in an electrical circuit.',
         used: 'Limiting current in a circuit.',
