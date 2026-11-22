@@ -22,7 +22,7 @@ number,name,file,status,details
 21,IR Receiver Module,high_quality_images/21_ir_receiver_vs1838b.jpg,skipped_existing,Already exists; 800x533; 51914 bytes
 22,3–6V Motor (with wire),high_quality_images/22_dc_motor_3_6v.jpg,skipped_existing,Already exists; 480x480; 21932 bytes
 23,5V Relay,high_quality_images/23_relay_5v_module.jpg,skipped_existing,Already exists; 800x800; 62513 bytes
-24,F-M Dupont Wire,high_quality_images/24_dupont_female_to_male_wires.jpg,failed,"HTTPSConnectionPool(host='static5.abc-rc.pl', port=443): Max retries exceeded with url: /hpeciai/e066bc3faa62b5fa5e9c8a1bc504d7c1/eng_pl_DuPont-M-F-jumper-cables-40-pcs-20cm-male-female-8761_4.webp (Caused by ConnectTimeoutError(<HTTPSConnection(host='static5.abc-rc.pl', port=443) at 0x7fa8467d2fd0>, 'Connection to static5.abc-rc.pl timed out. (connect timeout=15)'))"
+24,F-M Dupont Wire,high_quality_images/24_dupont_female_to_male_wires.jpg,failed,"HTTPSConnectionPool(host='static5.abc-rc.pl', port=443): Max retries exceeded with url: /hpeciai/e066bc3faa62b5fa5e9c8a1bc504d7c1/eng_pl_DuPont-M-F-jumper-cables-40-pcs-20cm-male-female-8761_4.webp (Caused by ConnectTimeoutError(<HTTPSConnection(host='static5.abc-rc.pl', port=443) at 0x7f54006befd0>, 'Connection to static5.abc-rc.pl timed out. (connect timeout=15)'))"
 25,9V Battery Connector With DC,high_quality_images/25_9v_battery_to_dc_connector.jpg,skipped_existing,Already exists; 1000x1000; 94302 bytes
 26,Tilt Switch,high_quality_images/26_tilt_sensor_sw520d.jpg,skipped_existing,Already exists; 2000x2000; 229650 bytes
 27,L293D,high_quality_images/27_l293d_motor_driver_ic.jpg,skipped_existing,Already exists; 1000x1000; 79910 bytes
