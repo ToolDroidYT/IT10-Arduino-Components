@@ -1,6 +1,6 @@
 ## Controller Board
 
-![Controller Board](./images/01_controller_board.jpg)
+![Controller Board](./docs/images/01_controller_board.jpg)
 
 **What it is:** The controller board runs the project program and sends signals to connected parts.
 
@@ -10,7 +10,7 @@
 
 ## USB Cable
 
-![USB Cable](./images/02_usb_cable.jpg)
+![USB Cable](./docs/images/02_usb_cable.jpg)
 
 **What it is:** The USB cable connects the controller board to a computer or compatible power source.
 
@@ -20,7 +20,7 @@
 
 ## 830 Tie-Points Breadboard
 
-![830 Tie-Points Breadboard](./images/03_830_tie_points_breadboard.jpg)
+![830 Tie-Points Breadboard](./docs/images/03_830_tie_points_breadboard.jpg)
 
 **What it is:** A breadboard lets you build temporary circuits without soldering.
 
@@ -30,7 +30,7 @@
 
 ## Remote
 
-![Remote](./images/04_infrared_remote.jpg)
+![Remote](./docs/images/04_infrared_remote.jpg)
 
 **What it is:** The remote is a handheld infrared controller with buttons.
 
@@ -40,7 +40,7 @@
 
 ## 65 Jumper Wire
 
-![65 Jumper Wire](./images/05_65_jumper_wires.jpg)
+![65 Jumper Wire](./docs/images/05_65_jumper_wires.jpg)
 
 **What it is:** Jumper wires connect components and board pins.
 
@@ -50,7 +50,7 @@
 
 ## Stepper Motor
 
-![Stepper Motor](./images/06_stepper_motor_28byj48.jpg)
+![Stepper Motor](./docs/images/06_stepper_motor_28byj48.jpg)
 
 **What it is:** A stepper motor rotates in small, controlled steps.
 
@@ -60,7 +60,7 @@
 
 ## Servo Motor (SG90)
 
-![Servo Motor (SG90)](./images/07_servo_motor_sg90.jpg)
+![Servo Motor (SG90)](./docs/images/07_servo_motor_sg90.jpg)
 
 **What it is:** A servo motor moves its output shaft to a chosen angle.
 
@@ -70,7 +70,7 @@
 
 ## 1602 I2C LCD
 
-![1602 I2C LCD](./images/08_lcd1602_i2c.jpg)
+![1602 I2C LCD](./docs/images/08_lcd1602_i2c.jpg)
 
 **What it is:** The 1602 I2C LCD is a character display that can show up to 16 characters on each of two lines.
 
@@ -80,7 +80,7 @@
 
 ## ULN2003 Stepper Motor Driver Board
 
-![ULN2003 Stepper Motor Driver Board](./images/09_uln2003_stepper_driver.jpg)
+![ULN2003 Stepper Motor Driver Board](./docs/images/09_uln2003_stepper_driver.jpg)
 
 **What it is:** The ULN2003 board helps control a small unipolar stepper motor.
 
@@ -90,7 +90,7 @@
 
 ## Power Supply Module
 
-![Power Supply Module](./images/10_breadboard_power_supply_mb102.jpg)
+![Power Supply Module](./docs/images/10_breadboard_power_supply_mb102.jpg)
 
 **What it is:** The power supply module provides regulated power to breadboard rails.
 
@@ -100,7 +100,7 @@
 
 ## Joystick Module
 
-![Joystick Module](./images/11_joystick_module_ky023.jpg)
+![Joystick Module](./docs/images/11_joystick_module_ky023.jpg)
 
 **What it is:** A joystick module provides two-axis movement input and often includes a push-button switch.
 
@@ -110,7 +110,7 @@
 
 ## Membrane Switch Module
 
-![Membrane Switch Module](./images/12_membrane_keypad_4x4.jpg)
+![Membrane Switch Module](./docs/images/12_membrane_keypad_4x4.jpg)
 
 **What it is:** A membrane switch module is a flat keypad made of several pressable buttons.
 
@@ -120,7 +120,7 @@
 
 ## Water Level Detection Sensor Module
 
-![Water Level Detection Sensor Module](./images/13_water_level_sensor.jpg)
+![Water Level Detection Sensor Module](./docs/images/13_water_level_sensor.jpg)
 
 **What it is:** This sensor detects water at its exposed sensing tracks.
 
@@ -130,7 +130,7 @@
 
 ## Sound Sensor Module
 
-![Sound Sensor Module](./images/14_sound_sensor_ky038.jpg)
+![Sound Sensor Module](./docs/images/14_sound_sensor_ky038.jpg)
 
 **What it is:** The sound sensor detects sound using a microphone.
 
@@ -140,7 +140,7 @@
 
 ## Fan Blade
 
-![Fan Blade](./images/15_fan_blade.jpg)
+![Fan Blade](./docs/images/15_fan_blade.jpg)
 
 **What it is:** A fan blade moves air when it rotates.
 
@@ -150,7 +150,7 @@
 
 ## 1 Digit 7-Segment Display
 
-![1 Digit 7-Segment Display](./images/16_seven_segment_one_digit.jpg)
+![1 Digit 7-Segment Display](./docs/images/16_seven_segment_one_digit.jpg)
 
 **What it is:** A one-digit 7-segment display shows numbers using seven individual LED segments.
 
@@ -160,7 +160,7 @@
 
 ## 4 Digit 7-Segment Display
 
-![4 Digit 7-Segment Display](./images/17_seven_segment_four_digit.jpg)
+![4 Digit 7-Segment Display](./docs/images/17_seven_segment_four_digit.jpg)
 
 **What it is:** A four-digit 7-segment display shows four numeric digits in one module.
 
@@ -170,7 +170,7 @@
 
 ## Ultrasonic Sensor
 
-![Ultrasonic Sensor](./images/18_ultrasonic_sensor_hcsr04.jpg)
+![Ultrasonic Sensor](./docs/images/18_ultrasonic_sensor_hcsr04.jpg)
 
 **What it is:** An ultrasonic sensor measures distance using high-frequency sound waves.
 
@@ -180,7 +180,7 @@
 
 ## DHT11 Temperature and Humidity Module
 
-![DHT11 Temperature and Humidity Module](./images/19_dht11_sensor_module.jpg)
+![DHT11 Temperature and Humidity Module](./docs/images/19_dht11_sensor_module.jpg)
 
 **What it is:** The DHT11 measures surrounding temperature and relative humidity.
 
@@ -190,7 +190,7 @@
 
 ## 10K Potentiometer
 
-![10K Potentiometer](./images/20_potentiometer_10k.jpg)
+![10K Potentiometer](./docs/images/20_potentiometer_10k.jpg)
 
 **What it is:** A 10K potentiometer is an adjustable resistor with three terminals.
 
@@ -200,7 +200,7 @@
 
 ## IR Receiver Module
 
-![IR Receiver Module](./images/21_ir_receiver_vs1838b.jpg)
+![IR Receiver Module](./docs/images/21_ir_receiver_vs1838b.jpg)
 
 **What it is:** An infrared receiver detects coded infrared light signals, such as those sent by a compatible remote.
 
@@ -210,7 +210,7 @@
 
 ## 3–6V Motor (with wire)
 
-![3–6V Motor (with wire)](./images/22_dc_motor_3_6v.jpg)
+![3–6V Motor (with wire)](./docs/images/22_dc_motor_3_6v.jpg)
 
 **What it is:** A small 3–6 V DC motor converts electrical power into spinning motion.
 
@@ -220,7 +220,7 @@
 
 ## 5V Relay
 
-![5V Relay](./images/23_relay_5v_module.jpg)
+![5V Relay](./docs/images/23_relay_5v_module.jpg)
 
 **What it is:** A relay is an electrically controlled switch; this module uses a 5 V coil.
 
@@ -230,7 +230,7 @@
 
 ## F-M Dupont Wire
 
-![F-M Dupont Wire](./images/24_dupont_female_to_male_wires.jpg)
+![F-M Dupont Wire](./docs/images/24_dupont_female_to_male_wires.jpg)
 
 **What it is:** Female-to-male Dupont wires connect a female socket at one end to a male pin at the other.
 
@@ -240,7 +240,7 @@
 
 ## 9V Battery Connector With DC
 
-![9V Battery Connector With DC](./images/25_9v_battery_to_dc_connector.jpg)
+![9V Battery Connector With DC](./docs/images/25_9v_battery_to_dc_connector.jpg)
 
 **What it is:** This connector links a 9 V battery to a compatible DC power input.
 
@@ -250,7 +250,7 @@
 
 ## Tilt Switch
 
-![Tilt Switch](./images/26_tilt_sensor_sw520d.jpg)
+![Tilt Switch](./docs/images/26_tilt_sensor_sw520d.jpg)
 
 **What it is:** A tilt switch detects a change in orientation or inclination.
 
@@ -260,7 +260,7 @@
 
 ## L293D
 
-![L293D](./images/27_l293d_motor_driver_ic.jpg)
+![L293D](./docs/images/27_l293d_motor_driver_ic.jpg)
 
 **What it is:** The L293D is a dual H-bridge motor driver chip.
 
@@ -270,7 +270,7 @@
 
 ## 74HC595
 
-![74HC595](./images/28_74hc595_shift_register.jpg)
+![74HC595](./docs/images/28_74hc595_shift_register.jpg)
 
 **What it is:** The 74HC595 is an 8-bit serial-in, parallel-out shift register.
 
@@ -280,7 +280,7 @@
 
 ## Active Buzzer
 
-![Active Buzzer](./images/29_active_buzzer.jpg)
+![Active Buzzer](./docs/images/29_active_buzzer.jpg)
 
 **What it is:** An active buzzer makes a tone when powered correctly.
 
@@ -290,7 +290,7 @@
 
 ## Passive Buzzer
 
-![Passive Buzzer](./images/30_passive_buzzer.jpg)
+![Passive Buzzer](./docs/images/30_passive_buzzer.jpg)
 
 **What it is:** A passive buzzer needs a changing signal to make a tone.
 
@@ -300,7 +300,7 @@
 
 ## Button (Small)
 
-![Button (Small)](./images/31_small_tactile_button.jpg)
+![Button (Small)](./docs/images/31_small_tactile_button.jpg)
 
 **What it is:** A small push-button is active only while pressed.
 
@@ -310,7 +310,7 @@
 
 ## Photoresistor (Photocell)
 
-![Photoresistor (Photocell)](./images/32_photoresistor_ldr.jpg)
+![Photoresistor (Photocell)](./docs/images/32_photoresistor_ldr.jpg)
 
 **What it is:** A photoresistor changes its resistance depending on the amount of light falling on it.
 
@@ -320,7 +320,7 @@
 
 ## Thermistor
 
-![Thermistor](./images/33_thermistor_ntc.jpg)
+![Thermistor](./docs/images/33_thermistor_ntc.jpg)
 
 **What it is:** A thermistor is a resistor whose resistance changes with temperature.
 
@@ -330,7 +330,7 @@
 
 ## NPN Transistor (PN2222)
 
-![NPN Transistor (PN2222)](./images/34_transistor_pn2222a.jpg)
+![NPN Transistor (PN2222)](./docs/images/34_transistor_pn2222a.jpg)
 
 **What it is:** The PN2222 is an NPN transistor that can act as a switch or amplifier.
 
@@ -340,7 +340,7 @@
 
 ## Diode 1N4007 Rectifier
 
-![Diode 1N4007 Rectifier](./images/35_diode_1n4007.jpg)
+![Diode 1N4007 Rectifier](./docs/images/35_diode_1n4007.jpg)
 
 **What it is:** The 1N4007 is a general-purpose rectifier diode.
 
@@ -350,7 +350,7 @@
 
 ## Red LED
 
-![Red LED](./images/36_led_red_5mm.jpg)
+![Red LED](./docs/images/36_led_red_5mm.jpg)
 
 **What it is:** A red LED produces red light when current flows through it.
 
@@ -360,7 +360,7 @@
 
 ## Yellow LED
 
-![Yellow LED](./images/37_led_yellow_5mm.jpg)
+![Yellow LED](./docs/images/37_led_yellow_5mm.jpg)
 
 **What it is:** A yellow LED produces yellow light when current flows through it.
 
@@ -370,7 +370,7 @@
 
 ## Green LED
 
-![Green LED](./images/38_led_green_5mm.jpg)
+![Green LED](./docs/images/38_led_green_5mm.jpg)
 
 **What it is:** A green LED produces green light when current flows through it.
 
@@ -380,7 +380,7 @@
 
 ## Blue LED
 
-![Blue LED](./images/39_led_blue_5mm.jpg)
+![Blue LED](./docs/images/39_led_blue_5mm.jpg)
 
 **What it is:** A blue LED produces blue light when current flows through it.
 
@@ -390,7 +390,7 @@
 
 ## White LED
 
-![White LED](./images/40_led_white_5mm.jpg)
+![White LED](./docs/images/40_led_white_5mm.jpg)
 
 **What it is:** A white LED produces white light.
 
@@ -400,7 +400,7 @@
 
 ## RGB LED
 
-![RGB LED](./images/41_rgb_led_5mm.jpg)
+![RGB LED](./docs/images/41_rgb_led_5mm.jpg)
 
 **What it is:** An RGB LED combines red, green, and blue LEDs in one package.
 
@@ -410,7 +410,7 @@
 
 ## Resistor
 
-![Resistor](./images/42_resistor_assortment.jpg)
+![Resistor](./docs/images/42_resistor_assortment.jpg)
 
 **What it is:** A resistor limits current and creates voltage drops in an electrical circuit.
 
