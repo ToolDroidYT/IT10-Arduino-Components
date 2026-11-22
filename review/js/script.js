@@ -1,6 +1,6 @@
 window.COMPONENTS = [
     {
-        name: 'Arduino UNO R3 Controller Board',
+        name: 'Controller Board',
         image: '../images/01_controller_board.jpg',
         description:
             'The controller board runs the project program and sends signals to connected parts.',
@@ -8,7 +8,7 @@ window.COMPONENTS = [
         example: 'Use it to read a water sensor and switch on a pump.',
     },
     {
-        name: 'USB-A to USB-B Cable',
+        name: 'USB Cable',
         image: '../images/02_usb_cable.jpg',
         description:
             'The USB cable connects the controller board to a computer or compatible power source.',
@@ -17,7 +17,7 @@ window.COMPONENTS = [
             'Connect it when uploading a sketch or checking serial output.',
     },
     {
-        name: '830-Point Breadboard',
+        name: '830 Tie-Points Breadboard',
         image: '../images/03_830_tie_points_breadboard.jpg',
         description:
             'A breadboard lets you build temporary circuits without soldering.',
@@ -25,7 +25,7 @@ window.COMPONENTS = [
         example: 'Build and test an LED circuit with a resistor.',
     },
     {
-        name: 'Infrared Remote',
+        name: 'Remote',
         image: '../images/04_infrared_remote.jpg',
         description:
             'The remote is a handheld infrared controller with buttons.',
@@ -33,21 +33,21 @@ window.COMPONENTS = [
         example: 'Press a button to switch an LED on or off.',
     },
     {
-        name: '65 Jumper Wires',
+        name: '65 Jumper Wire',
         image: '../images/05_65_jumper_wires.jpg',
         description: 'Jumper wires connect components and board pins.',
         used: 'Connecting parts to the board and breadboard.',
         example: 'Connect a sensor’s power, ground, and signal pins.',
     },
     {
-        name: '28BYJ-48 Stepper Motor',
+        name: 'Stepper Motor',
         image: '../images/06_stepper_motor_28byj48.jpg',
         description: 'A stepper motor rotates in small, controlled steps.',
         used: 'Turning a part in small, precise steps.',
         example: 'Move a small model gate in controlled steps.',
     },
     {
-        name: 'SG90 Servo Motor',
+        name: 'Servo Motor (SG90)',
         image: '../images/07_servo_motor_sg90.jpg',
         description: 'A servo motor moves its output shaft to a chosen angle.',
         used: 'Moving an arm or part to a chosen angle.',
@@ -62,7 +62,7 @@ window.COMPONENTS = [
         example: 'Show a sensor reading or welcome message.',
     },
     {
-        name: 'ULN2003 Stepper Motor Driver',
+        name: 'ULN2003 Stepper Motor Driver Board',
         image: '../images/09_uln2003_stepper_driver.jpg',
         description:
             'The ULN2003 board helps control a small unipolar stepper motor.',
@@ -70,7 +70,7 @@ window.COMPONENTS = [
         example: 'Control the 28BYJ-48 stepper motor.',
     },
     {
-        name: 'MB102 Breadboard Power Supply',
+        name: 'Power Supply Module',
         image: '../images/10_breadboard_power_supply_mb102.jpg',
         description:
             'The power supply module provides regulated power to breadboard rails.',
@@ -78,7 +78,7 @@ window.COMPONENTS = [
         example: 'Power a low-voltage sensor circuit on a breadboard.',
     },
     {
-        name: 'KY-023 Joystick Module',
+        name: 'Joystick Module',
         image: '../images/11_joystick_module_ky023.jpg',
         description:
             'A joystick module provides two-axis movement input and often includes a push-button switch.',
@@ -86,7 +86,7 @@ window.COMPONENTS = [
         example: 'Use the stick to steer a servo or move through a menu.',
     },
     {
-        name: '4×4 Membrane Keypad',
+        name: 'Membrane Switch Module',
         image: '../images/12_membrane_keypad_4x4.jpg',
         description:
             'A membrane switch module is a flat keypad made of several pressable buttons.',
@@ -94,14 +94,14 @@ window.COMPONENTS = [
         example: 'Enter a PIN for a simple electronic lock.',
     },
     {
-        name: 'Water-Level Sensor Module',
+        name: 'Water Level Detection Sensor Module',
         image: '../images/13_water_level_sensor.jpg',
         description: 'This sensor detects water at its exposed sensing tracks.',
         used: 'Detecting water level.',
         example: 'Light an LED when water reaches a set level.',
     },
     {
-        name: 'KY-038 Sound Sensor Module',
+        name: 'Sound Sensor Module',
         image: '../images/14_sound_sensor_ky038.jpg',
         description: 'The sound sensor detects sound using a microphone.',
         used: 'Detecting sound.',
@@ -115,7 +115,7 @@ window.COMPONENTS = [
         example: 'Attach it to a motor to make a small fan.',
     },
     {
-        name: 'Single-Digit 7-Segment Display',
+        name: '1 Digit 7-Segment Display',
         image: '../images/16_seven_segment_one_digit.jpg',
         description:
             'A one-digit 7-segment display shows numbers using seven individual LED segments.',
@@ -123,7 +123,7 @@ window.COMPONENTS = [
         example: 'Display a counter from 0 to 9.',
     },
     {
-        name: 'Four-Digit 7-Segment Display',
+        name: '4 Digit 7-Segment Display',
         image: '../images/17_seven_segment_four_digit.jpg',
         description:
             'A four-digit 7-segment display shows four numeric digits in one module.',
@@ -131,7 +131,7 @@ window.COMPONENTS = [
         example: 'Show a timer or score.',
     },
     {
-        name: 'HC-SR04 Ultrasonic Sensor',
+        name: 'Ultrasonic Sensor',
         image: '../images/18_ultrasonic_sensor_hcsr04.jpg',
         description:
             'An ultrasonic sensor measures distance using high-frequency sound waves.',
@@ -139,7 +139,7 @@ window.COMPONENTS = [
         example: 'Light an indicator when an object gets close.',
     },
     {
-        name: 'DHT11 Temperature and Humidity Sensor',
+        name: 'DHT11 Temperature and Humidity Module',
         image: '../images/19_dht11_sensor_module.jpg',
         description:
             'The DHT11 measures surrounding temperature and relative humidity.',
@@ -147,7 +147,7 @@ window.COMPONENTS = [
         example: 'Show room readings on an LCD.',
     },
     {
-        name: '10 kΩ Potentiometer',
+        name: '10K Potentiometer',
         image: '../images/20_potentiometer_10k.jpg',
         description:
             'A 10K potentiometer is an adjustable resistor with three terminals.',
@@ -155,7 +155,7 @@ window.COMPONENTS = [
         example: 'Adjust LED brightness or set a threshold.',
     },
     {
-        name: 'VS1838B Infrared Receiver',
+        name: 'IR Receiver Module',
         image: '../images/21_ir_receiver_vs1838b.jpg',
         description:
             'An infrared receiver detects coded infrared light signals, such as those sent by a compatible remote.',
@@ -163,7 +163,7 @@ window.COMPONENTS = [
         example: 'Change a project mode with remote-control buttons.',
     },
     {
-        name: '3–6 V DC Motor',
+        name: '3–6V Motor (with wire)',
         image: '../images/22_dc_motor_3_6v.jpg',
         description:
             'A small 3–6 V DC motor converts electrical power into spinning motion.',
@@ -171,7 +171,7 @@ window.COMPONENTS = [
         example: 'Spin a small wheel or fan.',
     },
     {
-        name: '5 V Relay Module',
+        name: '5V Relay',
         image: '../images/23_relay_5v_module.jpg',
         description:
             'A relay is an electrically controlled switch; this module uses a 5 V coil.',
@@ -179,7 +179,7 @@ window.COMPONENTS = [
         example: 'Switch a suitable low-voltage lamp.',
     },
     {
-        name: 'Female-to-Male Dupont Wires',
+        name: 'F-M Dupont Wire',
         image: '../images/24_dupont_female_to_male_wires.jpg',
         description:
             'Female-to-male Dupont wires connect a female socket at one end to a male pin at the other.',
@@ -187,7 +187,7 @@ window.COMPONENTS = [
         example: 'Connect a module to a breadboard or board header.',
     },
     {
-        name: '9 V Battery-to-DC Connector',
+        name: '9V Battery Connector With DC',
         image: '../images/25_9v_battery_to_dc_connector.jpg',
         description:
             'This connector links a 9 V battery to a compatible DC power input.',
@@ -195,7 +195,7 @@ window.COMPONENTS = [
         example: 'Power a compatible project designed for a 9 V input.',
     },
     {
-        name: 'SW-520D Tilt Switch',
+        name: 'Tilt Switch',
         image: '../images/26_tilt_sensor_sw520d.jpg',
         description:
             'A tilt switch detects a change in orientation or inclination.',
@@ -203,14 +203,14 @@ window.COMPONENTS = [
         example: 'Trigger an alert when a model is tilted.',
     },
     {
-        name: 'L293D Motor Driver',
+        name: 'L293D',
         image: '../images/27_l293d_motor_driver_ic.jpg',
         description: 'The L293D is a dual H-bridge motor driver chip.',
         used: 'Controlling motor direction.',
         example: 'Make a small robot move forward and backward.',
     },
     {
-        name: '74HC595 Shift Register',
+        name: '74HC595',
         image: '../images/28_74hc595_shift_register.jpg',
         description:
             'The 74HC595 is an 8-bit serial-in, parallel-out shift register.',
@@ -232,14 +232,14 @@ window.COMPONENTS = [
         example: 'Play different beeps for menu choices.',
     },
     {
-        name: 'Small Push-Button',
+        name: 'Button (Small)',
         image: '../images/31_small_tactile_button.jpg',
         description: 'A small push-button is active only while pressed.',
         used: 'Providing a press-to-activate input.',
         example: 'Start a timer or select a menu option.',
     },
     {
-        name: 'Photoresistor (LDR)',
+        name: 'Photoresistor (Photocell)',
         image: '../images/32_photoresistor_ldr.jpg',
         description:
             'A photoresistor changes its resistance depending on the amount of light falling on it.',
@@ -247,7 +247,7 @@ window.COMPONENTS = [
         example: 'Turn on a light automatically when it gets dark.',
     },
     {
-        name: 'NTC Thermistor',
+        name: 'Thermistor',
         image: '../images/33_thermistor_ntc.jpg',
         description:
             'A thermistor is a resistor whose resistance changes with temperature.',
@@ -255,7 +255,7 @@ window.COMPONENTS = [
         example: 'Make a temperature warning indicator.',
     },
     {
-        name: 'PN2222A NPN Transistor',
+        name: 'NPN Transistor (PN2222)',
         image: '../images/34_transistor_pn2222a.jpg',
         description:
             'The PN2222 is an NPN transistor that can act as a switch or amplifier.',
@@ -263,14 +263,14 @@ window.COMPONENTS = [
         example: 'Switch a small buzzer or motor from a board output.',
     },
     {
-        name: '1N4007 Diode',
+        name: 'Diode 1N4007 Rectifier',
         image: '../images/35_diode_1n4007.jpg',
         description: 'The 1N4007 is a general-purpose rectifier diode.',
         used: 'Allowing current to flow mainly in one direction.',
         example: 'Help protect a circuit from reverse current.',
     },
     {
-        name: 'Red 5 mm LED',
+        name: 'Red LED',
         image: '../images/36_led_red_5mm.jpg',
         description:
             'A red LED produces red light when current flows through it.',
@@ -278,7 +278,7 @@ window.COMPONENTS = [
         example: 'Show a warning or power status.',
     },
     {
-        name: 'Yellow 5 mm LED',
+        name: 'Yellow LED',
         image: '../images/38_led_yellow_5mm.jpg',
         description:
             'A yellow LED produces yellow light when current flows through it.',
@@ -286,7 +286,7 @@ window.COMPONENTS = [
         example: 'Show a caution or waiting status.',
     },
     {
-        name: 'Green 5 mm LED',
+        name: 'Green LED',
         image: '../images/37_led_green_5mm.jpg',
         description:
             'A green LED produces green light when current flows through it.',
@@ -294,7 +294,7 @@ window.COMPONENTS = [
         example: 'Show that a process is ready or complete.',
     },
     {
-        name: 'Blue 5 mm LED',
+        name: 'Blue LED',
         image: '../images/39_led_blue_5mm.jpg',
         description:
             'A blue LED produces blue light when current flows through it.',
@@ -302,14 +302,14 @@ window.COMPONENTS = [
         example: 'Show a status in blue.',
     },
     {
-        name: 'White 5 mm LED',
+        name: 'White LED',
         image: '../images/40_led_white_5mm.jpg',
         description: 'A white LED produces white light.',
         used: 'Providing a small white light.',
         example: 'Add a small light to a model.',
     },
     {
-        name: '5 mm RGB LED',
+        name: 'RGB LED',
         image: '../images/41_rgb_led_5mm.jpg',
         description:
             'An RGB LED combines red, green, and blue LEDs in one package.',
