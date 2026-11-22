@@ -377,7 +377,7 @@ window.COMPONENTS = [
         grid.innerHTML = list
             .map(
                 (c) =>
-                    `<article class="component-card" tabindex="0" role="button" aria-label="Review ${c.name}" data-index="${c.index}"><div class="component-image"><span class="number-tag">${pad(c.index + 1)}</span>${learned.has(c.index) ? '<span class="learned-tag">Learned</span>' : ''}<img loading="lazy" src="${c.image}" alt="${c.name}"></div><div class="card-copy"><h3>${c.name}</h3><p>${c.description}</p><div class="card-meta"><span>Field note ${pad(c.index + 1)}</span><span>Open note ↗</span></div></div></article>`,
+                    `<article class="component-card" tabindex="0" role="button" aria-label="Review ${c.name}" data-index="${c.index}"><div class="component-image"><span class="number-tag">${pad(c.index + 1)}</span>${learned.has(c.index) ? '<span class="learned-tag">Learned</span>' : ''}<img loading="lazy" src="${c.image}" alt="${c.name}"></div><div class="card-copy"><h3>${c.name}</h3><p>${c.description}</p><div class="card-meta"><span></span><span>Open note ↗</span></div></div></article>`,
             )
             .join('');
         $('#emptyState').hidden = !!list.length;
