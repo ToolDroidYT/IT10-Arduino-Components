@@ -4,14 +4,12 @@
 Run from any directory:
     python3 tools/build_single_file.py [output.html]
 
-The generated file inlines the local stylesheet, script, and component images.
-Google Fonts and Hugeicons remain externally hosted, as in the source page.
+The generated file inlines the local stylesheet and script. Component images,
+Google Fonts, and Hugeicons are loaded from hosted URLs.
 """
 
 from __future__ import annotations
 
-import base64
-import mimetypes
 import re
 import sys
 from pathlib import Path
@@ -22,19 +20,15 @@ SOURCE_HTML = ROOT / "review" / "index.html"
 CSS_PATH = ROOT / "review" / "css" / "style.css"
 JS_PATH = ROOT / "review" / "js" / "script.js"
 DEFAULT_OUTPUT = ROOT / "review" / "arduino-components-reviewer.html"
+IMAGE_BASE_URL = (
+    "https://raw.githubusercontent.com/ToolDroidYT/IT10-Arduino-Components/"
+    "refs/heads/main/images/"
+)
 
 
-def image_data_uri(relative_path: str) -> str:
-    """Resolve component paths, which are relative to review/index.html."""
-    image_path = (SOURCE_HTML.parent / relative_path).resolve()
-    if not image_path.is_relative_to(ROOT):
-        raise ValueError(f"Image path escapes the project directory: {relative_path}")
-    if not image_path.is_file():
-        raise FileNotFoundError(f"Image referenced by reviewer was not found: {image_path}")
-
-    mime_type = mimetypes.guess_type(image_path.name)[0] or "application/octet-stream"
-    encoded = base64.b64encode(image_path.read_bytes()).decode("ascii")
-    return f"data:{mime_type};base64,{encoded}"
+def hosted_image_url(relative_path: str) -> str:
+    """Use the filename with the configured hosted images directory."""
+    return IMAGE_BASE_URL + Path(relative_path).name
 
 
 def build() -> str:
@@ -42,12 +36,11 @@ def build() -> str:
     css = CSS_PATH.read_text(encoding="utf-8")
     js = JS_PATH.read_text(encoding="utf-8")
 
-    # Resolve component images before inlining the script. JSON-style escaping
-    # is not needed because these paths are quoted JS strings without escapes.
+    # Replace local component image paths before inlining the script.
     image_pattern = re.compile(r"(?P<quote>['\"])(?P<path>\.\./images/[^'\"]+)\1")
     js, image_count = image_pattern.subn(
         lambda match: match.group("quote")
-        + image_data_uri(match.group("path"))
+        + hosted_image_url(match.group("path"))
         + match.group("quote"),
         js,
     )
@@ -75,7 +68,7 @@ def main() -> int:
         output = Path.cwd() / output
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(build(), encoding="utf-8")
-    print(f"Created {output} (images, CSS, and JavaScript embedded)")
+    print(f"Created {output} (CSS and JavaScript embedded; images hosted remotely)")
     return 0
 
 
