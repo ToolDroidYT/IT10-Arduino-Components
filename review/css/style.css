@@ -21,6 +21,7 @@ html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--background); color: var(--foreground); font: 14px/1.5 var(--sans); -webkit-font-smoothing: antialiased; }
 button, input { font: inherit; }
 button { color: inherit; }
+.hgi-stroke { display: inline-flex; align-items: center; justify-content: center; line-height: 1; font-style: normal; }
 :focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .topbar { height: 64px; padding: 0 max(5vw, 20px); display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--border); background: var(--surface); }
 .brand { display: inline-flex; align-items: center; gap: 10px; color: var(--foreground); text-decoration: none; font-size: 14px; font-weight: 600; letter-spacing: -.01em; }
@@ -44,7 +45,7 @@ main { width: min(1160px, 100%); min-height: calc(100vh - 64px); margin: auto; p
 .button-outline:hover, .button-soft:hover { background: var(--subtle); }
 .progress-strip { min-height: 76px; display: flex; align-items: center; gap: 17px; margin-top: 20px; padding: 15px 17px; border: 1px solid var(--border); border-radius: 8px; background: var(--surface); box-shadow: 0 1px 2px #18181b08; }
 .progress-title { display: flex; align-items: center; gap: 8px; color: var(--secondary); font-size: 12px; font-weight: 500; white-space: nowrap; }
-.progress-marker { width: 8px; height: 8px; border-radius: 50%; background: var(--primary); box-shadow: 0 0 0 3px var(--primary-soft); }
+.progress-marker { width: 16px; height: 16px; border: 0; border-radius: 0; background: none; box-shadow: none; color: var(--primary); font-size: 15px; }
 .progress-numbers, .progress-right { display: flex; align-items: baseline; gap: 5px; white-space: nowrap; }
 .progress-numbers strong, .progress-right strong { font-size: 18px; font-weight: 650; letter-spacing: -.03em; }
 .progress-numbers span, .progress-right span { color: var(--muted); font-size: 11px; }
@@ -52,6 +53,7 @@ main { width: min(1160px, 100%); min-height: calc(100vh - 64px); margin: auto; p
 .progress-track div { width: 0; height: 100%; border-radius: inherit; background: var(--primary); transition: width .25s ease; }
 .reset-button { margin-left: 3px; padding: 5px 7px; border: 1px solid transparent; border-radius: 5px; background: transparent; color: var(--muted); cursor: pointer; font-size: 11px; }
 .reset-button:hover { border-color: var(--border); background: var(--subtle); color: var(--foreground); }
+.reset-button .hgi-stroke { margin-right: 3px; font-size: 13px; }
 .workspace { padding: 42px 0 64px; }
 .section-heading { display: flex; align-items: end; justify-content: space-between; margin-bottom: 17px; }
 .section-heading h2 { margin: 0; font-size: 19px; font-weight: 620; letter-spacing: -.025em; }
@@ -65,7 +67,7 @@ main { width: min(1160px, 100%); min-height: calc(100vh - 64px); margin: auto; p
 .tab.active span { color: var(--muted); }
 .search { height: 34px; display: flex; align-items: center; gap: 7px; padding: 0 9px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--muted); }
 .search:focus-within { border-color: #93c5fd; box-shadow: 0 0 0 3px #dbeafe; }
-.search > span { font-size: 17px; line-height: 1; }
+.search > .hgi-stroke { font-size: 15px; }
 .search input { width: 190px; border: 0; outline: 0; background: transparent; color: var(--foreground); font-size: 11px; }
 .search input::placeholder { color: #a1a1aa; }
 .search kbd, .card-hint kbd { padding: 2px 5px; border: 1px solid var(--border); border-radius: 3px; background: var(--subtle); color: var(--muted); font: 9px var(--mono); }
@@ -82,6 +84,7 @@ main { width: min(1160px, 100%); min-height: calc(100vh - 64px); margin: auto; p
 .card-copy p { min-height: 37px; margin: 0; color: var(--muted); font-size: 11px; line-height: 1.55; }
 .card-meta { display: flex; justify-content: space-between; gap: 5px; margin-top: 11px; padding-top: 9px; border-top: 1px solid #f0f0f1; color: var(--muted); font-size: 9px; }
 .card-meta span:last-child { color: var(--secondary); font-weight: 500; }
+.card-meta .hgi-stroke { margin-left: 2px; font-size: 11px; vertical-align: middle; }
 .empty-state { padding: 40px; color: var(--muted); text-align: center; }
 footer { display: flex; justify-content: space-between; padding: 15px 0; border-top: 1px solid var(--border); color: var(--muted); font-size: 10px; }
 /* shadcn-inspired review dialog */
@@ -93,6 +96,7 @@ dialog::backdrop { background: #18181b80; backdrop-filter: blur(2px); }
 .review-head h2 { margin: 0; font-size: 18px; font-weight: 600; letter-spacing: -.02em; }
 .close-button { width: 30px; height: 30px; border: 1px solid var(--border); border-radius: 6px; background: var(--surface); color: var(--muted); cursor: pointer; font-size: 18px; }
 .close-button:hover { background: var(--subtle); color: var(--foreground); }
+.close-button .hgi-stroke { font-size: 16px; }
 .review-progress { display: flex; align-items: center; gap: 10px; margin: 15px 0 11px; color: var(--muted); font: 9px var(--mono); }
 .review-progress > div { height: 5px; flex: 1; overflow: hidden; border-radius: 99px; background: var(--subtle); }
 .review-progress i { display: block; width: 0; height: 100%; border-radius: inherit; background: var(--primary); transition: width .25s ease; }
@@ -129,6 +133,8 @@ dialog::backdrop { background: #18181b80; backdrop-filter: blur(2px); }
 .quiz-summary h3 { margin: 9px 0 5px; font-size: 20px; font-weight: 600; }
 .quiz-summary p { color: var(--muted); font-size: 12px; }
 .quiz-summary .button { margin-top: 10px; }
+.credits a { color: var(--primary); text-decoration: none; }
+.credits a:hover { color: var(--secondary); text-decoration: underline; }
 [hidden] { display: none !important; }
 @media (max-width: 850px) { .component-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 600px) {

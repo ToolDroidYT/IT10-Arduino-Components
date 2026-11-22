@@ -377,7 +377,7 @@ window.COMPONENTS = [
         grid.innerHTML = list
             .map(
                 (c) =>
-                    `<article class="component-card" tabindex="0" role="button" aria-label="Review ${c.name}" data-index="${c.index}"><div class="component-image"><span class="number-tag">${pad(c.index + 1)}</span>${learned.has(c.index) ? '<span class="learned-tag">Learned</span>' : ''}<img loading="lazy" src="${c.image}" alt="${c.name}"></div><div class="card-copy"><h3>${c.name}</h3><p>${c.description}</p><div class="card-meta"><span></span><span>Open note ↗</span></div></div></article>`,
+                    `<article class="component-card" tabindex="0" role="button" aria-label="Review ${c.name}" data-index="${c.index}"><div class="component-image"><span class="number-tag">${pad(c.index + 1)}</span>${learned.has(c.index) ? '<span class="learned-tag">Learned</span>' : ''}<img loading="lazy" src="${c.image}" alt="${c.name}"></div><div class="card-copy"><h3>${c.name}</h3><p>${c.description}</p><div class="card-meta"><span>Field note ${pad(c.index + 1)}</span><span>Open note <i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-up-right-01"></i></span></div></div></article>`,
             )
             .join('');
         $('#emptyState').hidden = !!list.length;
@@ -548,7 +548,7 @@ window.COMPONENTS = [
             scores = scores.slice(0, 20);
             save();
             $('#quizArea').innerHTML =
-                `<div class="quiz-summary"><div class="score-big">${quizScore}<span style="font-size:25px;color:#91a9b6">/${deck.length}</span></div><h3>Quiz complete.</h3><p>Your score is saved. Keep the streak going.</p><button class="button button-blue" id="quizAgain">Try another round ↗</button></div>`;
+                `<div class="quiz-summary"><div class="score-big">${quizScore}<span style="font-size:25px;color:#91a9b6">/${deck.length}</span></div><h3>Quiz complete.</h3><p>Your score is saved. Keep the streak going.</p><button class="button button-blue" id="quizAgain">Try another round <i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-up-right-01"></i></button></div>`;
             $('#quizAgain').addEventListener('click', () =>
                 startReview('quiz'),
             );

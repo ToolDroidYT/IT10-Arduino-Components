@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -24,15 +25,15 @@
       </div>
       <div class="hero-actions">
         <button class="button button-outline" data-start="quiz">Take a quiz</button>
-        <button class="button button-dark" data-start="flash">Study flashcards <span aria-hidden="true">↗</span></button>
+        <button class="button button-dark" data-start="flash">Study flashcards <i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-up-right-01"></i></button>
       </div>
     </section>
     <section class="progress-strip" aria-label="Learning progress">
-      <div class="progress-title"><span class="progress-marker"></span><span>Review progress</span></div>
+      <div class="progress-title"><i aria-hidden="true" class="progress-marker hgi hgi-stroke hgi-chart-increase"></i><span>Review progress</span></div>
       <div class="progress-numbers"><strong id="learnedCount">0</strong><span>of 42 learned</span></div>
       <div class="progress-track" role="progressbar" aria-label="Components learned" aria-valuemin="0" aria-valuemax="42" aria-valuenow="0"><div id="progressFill"></div></div>
       <div class="progress-right"><strong id="unlearnedCount">42</strong><span>to learn</span></div>
-      <button id="resetProgress" class="reset-button" title="Reset saved progress" aria-label="Reset saved progress">↺ <span>Reset</span></button>
+      <button id="resetProgress" class="reset-button" title="Reset saved progress" aria-label="Reset saved progress"><i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-reload-horizontal"></i><span>Reset</span></button>
     </section>
     <section class="workspace" id="explore">
       <div class="section-heading"><div><h2>Component library</h2><p>42 components from your kit</p></div></div>
@@ -42,26 +43,26 @@
           <button class="tab" data-filter="unlearned" role="tab" aria-selected="false">To learn <span id="tabUnlearned">42</span></button>
           <button class="tab" data-filter="learned" role="tab" aria-selected="false">Learned <span id="tabLearned">0</span></button>
         </div>
-        <label class="search"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search components..." aria-label="Search components"><kbd>/</kbd></label>
+        <label class="search"><i aria-hidden="true" class="hgi hgi-stroke hgi-search-01"></i><input id="searchInput" type="search" placeholder="Search components..." aria-label="Search components"><kbd>/</kbd></label>
       </div>
       <div class="component-grid" id="componentGrid"></div>
       <div class="empty-state" id="emptyState" hidden>No components match that search. Try a different name.</div>
     </section>
-    <footer><span>Arduino Components Reviewer</span><span></span></footer>
+    <footer><span>Arduino Components Reviewer</span><span class="credits">Created by <a href="https://me.tooldroid.dev/">ToolDroid</a> with <a href="https://openai.com/codex/">Codex</a></span></footer>
   </main>
   <dialog id="reviewDialog" aria-labelledby="reviewTitle">
     <div class="review-shell">
       <header class="review-head">
         <div><span class="eyebrow" id="modeLabel">Flashcards</span><h2 id="reviewTitle">Take a closer look.</h2></div>
-        <button class="close-button" id="closeReview" aria-label="Close reviewer">×</button>
+        <button class="close-button" id="closeReview" aria-label="Close reviewer"><i aria-hidden="true" class="hgi hgi-stroke hgi-cancel-01"></i></button>
       </header>
       <div class="review-progress"><span id="reviewPosition">01 / 42</span><div><i id="reviewProgressFill"></i></div><span id="scoreLabel">0 known</span></div>
       <div id="flashcard" class="flashcard" tabindex="0" role="button" aria-label="Flashcard. Activate to reveal the field note.">
         <div class="card-front"><span class="card-kicker">Identify this component</span><img id="flashImage" src="" alt=""><div class="card-hint">Tap or press <kbd>space</kbd> to reveal</div></div>
         <div class="card-back" hidden><span class="card-kicker">Field note <span id="cardOrdinal"></span></span><h3 id="flashName"></h3><p id="flashDescription"></p><div class="card-used"><span>Used for</span><p id="flashUsed"></p></div><p class="card-example" id="flashExample"></p></div>
       </div>
-      <div class="review-actions" id="flashActions"><button class="button button-soft" id="dontKnow">← Still learning</button><span class="swipe-hint">Swipe to answer</span><button class="button button-blue" id="knowIt">I know this →</button></div>
-      <div class="quiz-area" id="quizArea" hidden><p class="quiz-prompt" id="quizPrompt"></p><div class="choices" id="choices"></div><div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div><button class="button button-dark next-question" id="nextQuestion" hidden>Next question →</button></div>
+      <div class="review-actions" id="flashActions"><button class="button button-soft" id="dontKnow"><i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-left-01"></i>Still learning</button><span class="swipe-hint">Swipe to answer</span><button class="button button-blue" id="knowIt">I know this<i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-right-01"></i></button></div>
+      <div class="quiz-area" id="quizArea" hidden><p class="quiz-prompt" id="quizPrompt"></p><div class="choices" id="choices"></div><div class="quiz-feedback" id="quizFeedback" aria-live="polite"></div><button class="button button-dark next-question" id="nextQuestion" hidden>Next question <i aria-hidden="true" class="hgi hgi-stroke hgi-arrow-right-01"></i></button></div>
     </div>
   </dialog>
   <script src="js/script.js"></script>
