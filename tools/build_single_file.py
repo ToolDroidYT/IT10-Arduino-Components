@@ -16,10 +16,10 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE_HTML = ROOT / "review" / "index.html"
-CSS_PATH = ROOT / "review" / "css" / "style.css"
-JS_PATH = ROOT / "review" / "js" / "script.js"
-DEFAULT_OUTPUT = ROOT / "review" / "arduino-components-reviewer.html"
+SOURCE_HTML = ROOT / "docs" / "index.html"
+CSS_PATH = ROOT / "docs" / "css" / "style.css"
+JS_PATH = ROOT / "docs" / "js" / "script.js"
+DEFAULT_OUTPUT = ROOT / "docs" / "arduino-components-reviewer.html"
 IMAGE_BASE_URL = (
     "https://raw.githubusercontent.com/ToolDroidYT/IT10-Arduino-Components/"
     "refs/heads/main/images/"
