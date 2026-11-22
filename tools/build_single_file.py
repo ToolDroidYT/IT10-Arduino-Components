@@ -37,7 +37,7 @@ def build() -> str:
     js = JS_PATH.read_text(encoding="utf-8")
 
     # Replace local component image paths before inlining the script.
-    image_pattern = re.compile(r"(?P<quote>['\"])(?P<path>\.\./images/[^'\"]+)\1")
+    image_pattern = re.compile(r"(?P<quote>['\"])(?P<path>\./images/[^'\"]+)\1")
     js, image_count = image_pattern.subn(
         lambda match: match.group("quote")
         + hosted_image_url(match.group("path"))
